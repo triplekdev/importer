@@ -23,7 +23,7 @@
       "qunit-cli": "*"
   },
   "scripts": {
-      "prepublish": "./build.sh"
+      "prepublish": "sh build.sh"
   },
   "engine": [ "node >= v0.6.0" ],
   "bin": { "importer": "js/cmd.js" },
